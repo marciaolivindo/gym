@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Boa forma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+
+    <!--Aqui começa o Header-->
+
+    <header class="max-width bg" id="Home">
+            <div class="container">
+                <nav class="menu">
+                    <div class="logo"></div>
+                    <div class="desktop-menu">
+                        <ul>
+                            <li><a href="#Home">Início</a></li>
+                            <li><a href="#About">Coleção</a></li>
+                            <li><a href="#Service">Suplementos</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-menu" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        <ul id="myLinks">
+                            <li><a href="#Home">Início</a></li>
+                            <li><a href="#About">Coleção</a></li>
+                            <li><a href="#Service">Suplementos</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="call">
+                    <div class="left">
+                        <h1 class="color-azul text-gd">Sobre a Academia</h1>
+                        <p class="color-azul text-pq">A academia Boa Forma está há 16 anos proporcionando uma saúde melhor para todas as pessoas,
+                             estamos localizados na rua 22 de Junho (Próximo ao Batalhão do Raio) </p>
+                        <button>Compre Agora</button>
+                    </div>
+                    <div class="right">
+                        <div class="imagem">
+                            <img src="image/OLC.jpg" alt="">
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <button id="back-to-top">^</button>
+    </header>
+
+    <!--Aqui Termina o Header-->
+
+    <!--Aqui começa o About-->
+
+    <section class="max-width bg2" id="About">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-branco-1">Coleção</h2>
+                <div class="line">
+                    <div class="text-titulo">Roupas</div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="box">
+                    <img src="image/R (2).jpeg" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Regata</h2>
+                        <p class="color-branco">Masculino</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/R.jpeg" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Conjunto</h2>
+                        <p class="color-branco">Feminino</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/R (3).jpeg" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Macaquinho</h2>
+                        <p class="color-branco">Feminino</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Termina o About-->
+
+    <!--Aqui começa o Service-->
+
+    <section class="max-width bg" id="Service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <h2 class="text-md color-cinza-1">Suplementos</h2>
+                    <div class="line">
+                        <div class="text-titulo">Promoções</div>
+                    </div>
+                </div>
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        <label class="card" for="item-1" id="song-1">
+                            <img src="image/WhatsApp Image 2024-06-06 at 13.53.09 (1).jpeg" alt="">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-2" id="song-2">
+                            <img src="image/WhatsApp Image 2024-06-06 at 13.53.09 (2).jpeg">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-3" id="song-3">
+                            <img src="image/WhatsApp Image 2024-06-06 at 13.53.09 (3).jpeg">
+                            <button>Comprar Agora</button>
+                        </label>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Aqui termina o Service-->
+
+    <!--Aqui começa o Contact-->
+
+    <section class="max-width bg2" id="Contact">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Contato</h2>
+                <div class="line">
+                    <div class="text-titulo">Fale conosco</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <div class="box">
+                        <h1>Nosso Newsletter</h1>
+                        <form action="">
+                            <input type="text" placeholder="Nome Completo">
+                            <input type="email" placeholder="Seu E-mail">
+                            <input type="submit" value="Inscreva-se">
+                        </form>
+                        <h1>Siga-nos</h1>
+                        <div class="social">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h1>Nosso Endereço</h1>
+                        <div class="info">
+                            <div class="icons">
+                                <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-phone"></i>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="text">
+                                <p>viçosa@ABF</p>
+                                <p>+55 88 9213-1192</p>
+                                <p>Viçosa do Ceará,CE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Aqui Termina o Contact-->
+
+<!---Aqui começa o footer-->
+
+<footer>
+    <div class="container">
+        <img src="image/gym.jpg" alt="">
+        <p class="text-pq">Copyright © 2024 <span class="color-laranja">RÓDINO</span> All Rights Reserved</p>
+        <p class="text-pq">Tel: (88)9213-1192</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+
+    // Menu-Mobile
+
+    function myFunction() {
+        var x = document.getElementById('myLinks');
+        if (x.style.display ==='block'){
+            x.style.display = "none;"
+        } else{
+            x.style.display = "block;"
+        }
+}
+        //Sccrollbar Personalizado
+
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener('click',function() {
+            window.scrollTo(0,0);
+        });
+</script>
+</body>
+</html>
 
